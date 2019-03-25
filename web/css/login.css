@@ -1,0 +1,137 @@
+.loginimg {
+    width: 200px;
+}
+
+.maintable {
+    width: 400px;
+    padding: 0;
+    margin: 0;
+    margin-top: 20vh;
+    background-color: #303030b4;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.bg_01 {
+}
+
+.bg_02 {
+    color: white;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #8f000070;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.login_info {
+    margin-top: -24px;
+    margin-left: 250px;
+    color: white;
+    font-size: 16;
+}
+
+.login_input_holder {
+    border: 1px rgba(255, 0, 0, .6) solid !important;
+    background-color: #FCFCFC;
+    padding-right: 0 !important;
+    box-shadow: none;
+    color: black;
+    border-radius: 4px;
+    width: 240px;
+    height: 30px;
+}
+
+.login_input_user {
+    background: url(../../img/login_user.png) no-repeat 3% 50%;
+    width: 100%;
+    height: 30px;
+}
+
+.login_input_pass {
+    background: url(../../img/login_password.png) no-repeat 3% 50%;
+    width: 100%;
+    height: 30px;
+}
+
+.login_ {
+    background-color: transparent;
+    background: transparent;
+    color: black;
+    width: 100%;
+    height: 30px;
+    display: block;
+    border: none;
+    padding: 3px 0 3px 40px;
+    font-size: 1.1em;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 99vw;
+    height: 100vh;
+    margin: 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('/img/background.png');
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.main_body {
+    
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+button,
+input[type="button"] {
+    height: 25px;
+    width: 150px;
+    background: #696969;
+    color: white;
+    border: black 1px solid;
+    border-radius: 4px;
+}
+
+button:hover,
+input[type="button"]:hover {
+    background-color: #272727;
+}
+
+.button {
+    height: 25px;
+    width: 150px;
+    background: #696969;
+    color: white;
+    border: black 1px solid;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #272727;
+}
+
+.d_table_tr {
+    background: rgba(10, 10, 10, .1);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.table_tr:hover {
+    background: rgba(10, 10, 10, .3);
+}
+
+.db_key{
+    color:#4040ff;
+    display:inline;
+    text-shadow: 1px 1px black, -1px 1px black, -1px -1px black, 1px -1px black;
+}
+
+.db_data{
+    color:#ffffff;
+    display:inline;
+    text-shadow: 1px 1px black, -1px 1px black, -1px -1px black, 1px -1px black;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="./js/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/mainscripter.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+    <title>Welcome to IOTServe server</title>
+</head>
+
+<body class="bg_01" onkeydown="if (event.keyCode == 13) { wait_Load(()=>{login();}) }">
+    <center>
+        <table class="maintable" id="maintable">
+            <tr>
+                <td>
+                    <center class="bg_02">
+                        <pre><h1>Welcome</pre>
+                        <pre><h2>IOTServe Server</pre>
+                    </center>
+                </td>
+            </tr>
+            <tr style="height: 20px;"></tr>
+            <tr>
+                <td>
+                    <center>
+                        <div class="login_input_holder">
+                            <div class="login_input_user">
+                                <input class="login_" id="user" type="text" placeholder="Usuário">
+                                <pre class="login_info"></pre>
+                            </div>
+                        </div>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                        <div class="login_input_holder">
+                            <div class="login_input_pass">
+                                <input class="login_" id="pass"
+                                    onkeydown="if (event.keyCode == 13) { wait_Load(()=>{login();}) }" type="password"
+                                    placeholder="Senha">
+                                <pre class="login_info"></pre>
+                            </div>
+                        </div>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center style="margin-top: 10px">
+                        <input id="logbot" type="button" value="Entrar" onclick="wait_Load(()=>{login();})">
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                        <pre
+                            style="font-size:9pt;color:#fff; margin-top: 10px; padding: 0; max-height:4px; ">Criado e desenvolvido por Lucas R. Camarotto - 2019</pre>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <div id='logger' style="pointer-events: none;"></div>
+</body>
+<script>
+    sessionStorage.setItem('indb', '0');
+</script>
+
+</html>
